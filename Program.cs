@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace tutorials
 {
@@ -66,6 +67,49 @@ namespace tutorials
             {
                 Console.WriteLine("Name {0} coours {1} times ",pair.Key,pair.Value);
             }
+
+
+            int[] mi=new int[] {2,3,4,5,6};
+            int position=2;
+            int[] tempArray = new int[0];
+            int counter = 0;
+            for(int i = 0; i<mi.Length; i++)
+            {
+                if(i != position)
+                {
+                    counter++;
+                    Array.Resize(ref tempArray, counter);
+                    tempArray[tempArray.Length-1] = mi[i];
+                }
+            }
+
+            foreach(int el in tempArray)
+            {
+                Console.Write(el + " ");
+            }
+
+              FileStream output;
+
+           
+          
+           output = new FileStream("TextBook.txt", FileMode.Create, FileAccess.Write);
+          
+            using(StreamWriter writeTo=new StreamWriter(output))
+            {
+                writeTo.Write("My New Txt");
+                writeTo.WriteLine("Mike");
+                writeTo.WriteLine();
+                writeTo.WriteLine("greetings");
+
+            }
+
+            String namex = String.Empty;
+            FileStream input = new FileStream("TextBook.txt", FileMode.Open, FileAccess.Read);
+            using(StreamReader readFrom=new StreamReader(input))
+            {
+              namex = readFrom.ReadLine();
+            }
+            Console.WriteLine(namex);
             Console.ReadKey();
 
         }
