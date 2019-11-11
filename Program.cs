@@ -31,7 +31,7 @@ namespace tutorials
             //arr[0].x = 5;
             //arr[0].y = 1;
 
-            String[] mySTr = { "mike", "Vero", "Nadia" };
+            String[] mySTr = { "mike", "Vero", "naty" };
 
             LinkedList<String> myLinkList = new LinkedList<string>(mySTr);
             myLinkList.AddLast("Christina");
