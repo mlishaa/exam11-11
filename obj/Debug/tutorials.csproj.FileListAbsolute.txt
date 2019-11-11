@@ -4,3 +4,9 @@ C:\Users\mac\source\repos\tutorials\tutorials\bin\Debug\tutorials.pdb
 C:\Users\mac\source\repos\tutorials\tutorials\obj\Debug\tutorials.csprojAssemblyReference.cache
 C:\Users\mac\source\repos\tutorials\tutorials\obj\Debug\tutorials.exe
 C:\Users\mac\source\repos\tutorials\tutorials\obj\Debug\tutorials.pdb
+C:\Users\mac\Source\Repos\exam11-11\bin\Debug\tutorials.exe.config
+C:\Users\mac\Source\Repos\exam11-11\bin\Debug\tutorials.exe
+C:\Users\mac\Source\Repos\exam11-11\bin\Debug\tutorials.pdb
+C:\Users\mac\Source\Repos\exam11-11\obj\Debug\tutorials.csprojAssemblyReference.cache
+C:\Users\mac\Source\Repos\exam11-11\obj\Debug\tutorials.exe
+C:\Users\mac\Source\Repos\exam11-11\obj\Debug\tutorials.pdb
